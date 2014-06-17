@@ -1,0 +1,152 @@
+* {
+    outline: 0px dashed black;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0;
+    color: #505050;
+    height: 100%;
+}
+
+#main-content {
+    margin: 0 auto;
+    width: 600px;
+    background-color: rgb(255,255,255);
+}
+
+#content-header {
+    padding: 1.5em;
+    border-bottom: solid 1px #ccc;
+}
+
+#title {
+    line-height: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+#progressBar {
+    height: 22px;
+    border-radius: 10px;
+    background: #e6e5e2;
+    box-shadow: 0 -1px 1px #c0bfbc inset;
+}
+
+#progressBar div {
+    font-size: 0.6em;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* text middle aligned */
+    padding-right: 5px;
+    width: 0;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px #333; 
+    background-color: #339900;
+    background: -webkit-linear-gradient(top, #339900, #006600);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#339900), to(#006600)); 
+    background: -moz-linear-gradient(top, #339900, #006600); 
+    background: -ms-linear-gradient(top, #339900, #006600); 
+    background: -o-linear-gradient(top, #339900, #006600);  
+}
+
+#form {
+    margin: 1.5em;
+}
+
+#form div {
+    display: inline-block;
+}
+
+
+#question {
+    width: 100%;
+    line-height: 1.25em;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+ul {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+li {
+    width: 50%;
+    line-height: 1.5em;
+    float: left;
+    display: inline;
+    margin: 1.5em 0;
+}
+
+li input {
+    margin-right: 10px;
+}
+
+input.button {
+    width: 150px;
+    height: 35px;
+    border: solid 1px #50597b;
+    background: #006600;
+    color: #95a5a6;
+    font-size: 1.5em;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -webkit-transition: background 0.35s ease-in-out;
+    -moz-transition: background 0.35s ease-in-out;
+    -ms-transition: background 0.35s ease-in-out;
+    -o-transition: background 0.35s ease-in-out;
+    transition: background 0.35s ease-in-out;
+}
+
+input.button:hover {
+    background: #339900;
+    color: #fff;
+    -webkit-transition: background 0.35s ease-in-out;
+    -moz-transition: background 0.35s ease-in-out;
+    -ms-transition: background 0.35s ease-in-out;
+    -o-transition: background 0.35s ease-in-out;
+    transition: background 0.35s ease-in-out;
+    cursor: pointer;
+}
+
+input.button:focus {
+    outline: none !important;
+}
+
+#msg, #result {
+   margin-left: 1.5em;
+}
+
+#nextButton, #restartButton {
+    display: none;
+}
+
+#nextButton {
+    background: #330099 !important;
+}
+
+#nextButton:hover {
+    background: #6633CC !important;
+}
+
+#restartButton {
+    background: #993366 !important;
+}
+
+#restartButton:hover {
+    background: #CC6699 !important;
+}
+
+#info {
+    display: block !important;
+    width: 100%;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    font-style: italic;
+    color: #A9A9A9;
+}
